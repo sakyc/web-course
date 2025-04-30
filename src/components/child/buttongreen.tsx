@@ -11,7 +11,7 @@ const ButtonGreen = () => {
     if (!context){
         return null
     }
-    let {active, setactive} = context
+    let { setactive} = context
 
     let nama = "Lihat semua kelas >"
   return (

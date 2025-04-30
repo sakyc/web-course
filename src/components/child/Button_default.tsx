@@ -1,7 +1,7 @@
-import { useContext, useEffect, use } from "react";
+import { useContext, } from "react";
 import { ActiveContext } from "../../globalState/ActiveContext";
 import type { button } from "../../types/course_type";
-import { Link, useParams } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 type ButtonDefaultProps = {
     button: button;
