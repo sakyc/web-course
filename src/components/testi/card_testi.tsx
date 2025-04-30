@@ -1,5 +1,29 @@
 const Card_testi = () => {
-    let dummy = Array.from({length: 8})
+    let dummy = [{
+        id: 1
+    },
+    {
+        id: 2
+    },
+    {
+        id: 3
+    },
+    {
+        id: 4
+    },
+    {
+        id: 5
+    },
+    {
+        id: 6
+    },
+    {
+        id: 7
+    },
+    {
+        id: 8
+    },
+  ]
   return (
     <>
     {dummy.map((item, index) => (
@@ -14,7 +38,7 @@ const Card_testi = () => {
         <div className="flex flex-row mt-5 items-center gap-3">
           <img src="/img/testimonial/people-1.jpg" alt="" className="w-20 h-20 rounded-full fit"/>
           <div className="flex flex-col">
-            <p className="font-bold text-xl ">People {index}</p>
+            <p className="font-bold text-xl ">People {item.id}</p>
             <p className="font-bold text-lg text-gray-400">Flutter Develover</p>
           </div>
         </div>
